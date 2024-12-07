@@ -11,6 +11,7 @@ def main():
     st.divider()
 
     with st.sidebar:
+        response_button_clicked = st.button("Generate Prompt")
         inputs = st.container(height=500)
         inputs.title("Inputs for Topics Generation")
         subject = inputs.selectbox("Select Course",["MySQL Database","Java Programming","Object Oriented Programming using Java"])
@@ -19,17 +20,39 @@ def main():
         course_duration = inputs.text_input("Enter Course Duration Details","10 sessions each of 2 hour concept session")
         audience_type = inputs.selectbox("Select Audience Type",["College Students","Working Professionals"])
         audience_proficiency_level = inputs.selectbox("Select Proficiency Level",["Beginner - No Prior Background","Intermediate - Basic Programming Skills","Advanced - Has Work Experience"])
-        if st.button("Generate Prompt"):
+        if response_button_clicked:
             topic_prompt = f"""
-            Generate prompt using the following inputs that will help to generate topics with subtopics in tabular structure for training program:
+            
+            Generate a precise, structured prompt template that will help create a comprehensive training program curriculum with topics and subtopics. The prompt should be designed to extract detailed information for curriculum development, using the following inputs as a guide:
+
+            You are an expert curriculum designer tasked with creating a detailed training program outline. Generate a comprehensive, multi-level topic and subtopic structure in a tabular format based on the following specifications:
+            
             Subject: {subject}
             Course Design: {course_design}
             Course Type: {course_type}
             Course Duration: {course_duration}
             Audience Type: {audience_type}
             Audience Proficiency Level: {audience_proficiency_level}
-            Ensure you only generate the prompt and not the topics.
-            Important Note: Do not include any introductory or closing lines in your response so that the prompt can be copied as is.
+            
+            IMPORTANT CONSTRAINTS:
+            1. Produce ONLY the prompt template.
+            2. Do not generate any actual topics or content.
+            3. The output must be a clear, copyable prompt that another AI can use to generate the curriculum.
+            4. Ensure the prompt explicitly instructs the AI to create a tabular structure with main topics and subtopics.
+            5. The prompt should request a comprehensive, hierarchical breakdown of the training program content.
+            
+            Format the response as a single, direct prompt that can be immediately used by another AI system.
+             
+            
+            # Generate prompt using the following inputs that will help to generate topics with subtopics in tabular structure for training program:
+            # Subject: {subject}
+            # Course Design: {course_design}
+            # Course Type: {course_type}
+            # Course Duration: {course_duration}
+            # Audience Type: {audience_type}
+            # Audience Proficiency Level: {audience_proficiency_level}
+            # Additional Instruction: Ensure you only generate the prompt and not the topics.
+            # Important Note: Do not include any introductory or closing lines in your response so that the prompt can be copied as is.
             """
             prompt_response = get_response(topic_prompt)
             st.code(prompt_response,language=None)
