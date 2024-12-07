@@ -1,0 +1,11 @@
+﻿Session,Main Topic,Subtopics
+Session 1,Introduction to Databases and MySQL,"What is a Database?,Types of Databases,Introduction to MySQL,MySQL Installation and Setup,MySQL Workbench Overview"
+Session 2,Basic SQL Commands,"Creating Databases,Creating Tables,Data Types,Inserting Data,Basic SELECT Statements"
+Session 3,Filtering and Sorting Data,"WHERE Clause,Logical Operators,ORDER BY Clause,LIMIT Clause,Working with NULL"
+Session 4,Functions in SQL,"Aggregate Functions (SUM, COUNT, AVG),String Functions,Date Functions,Numeric Functions,Using Functions in Queries"
+Session 5,Joins and Subqueries,"Understanding Joins,Inner Join,Left Join,Right Join,Subqueries and Correlated Subqueries"
+Session 6,Database Design and Normalization,"Principles of Database Design,Normalization (1NF, 2NF, 3NF),Creating Relationships,Primary Keys and Foreign Keys,ER Diagrams"
+Session 7,Indexing and Optimization,"Introduction to Indexing,Types of Indexes,Creating Indexes,Index Strategies,Query Optimization Techniques"
+Session 8,Transactions and Concurrency,"Transaction Concepts,ACID Properties,BEGIN, COMMIT, ROLLBACK,Transaction Isolation Levels,Concurrent Transaction Management"
+Session 9,Stored Procedures and Triggers,"What are Stored Procedures?,Creating and Using Stored Procedures,What are Triggers?,Creating and Using Triggers,Benefits and Drawbacks"
+Session 10,"Backup, Restore, and Security","Importance of Backups,Backup Strategies,Restoring Data,User Management,Securing Your Database"

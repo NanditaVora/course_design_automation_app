@@ -1,0 +1,11 @@
+﻿Session,Concept Session,Practice Session
+Session 1 - Basic Syntax,"Introduction to Java, setting up the development environment, and understanding basic syntax","Write a simple 'Hello, World!' program, exercises on declaring variables and data types"
+Session 2 - Control Structures,"Understanding if-else statements, switch-case, loops (for, while, do-while)","Write programs using if-else, switch-case, and loops for various scenarios"
+Session 3 - Functions and Methods,"Defining and calling functions/methods, method overloading","Create functions to perform common operations, implement method overloading"
+Session 4 - Arrays,"Introduction to arrays, single-dimensional arrays, multidimensional arrays","Write programs to manipulate arrays, calculate sum/average, search and sort arrays"
+Session 5 - Object-Oriented Programming Basics,"Understanding classes and objects, constructors, data encapsulation","Create classes and objects, implement constructors, practice data encapsulation"
+Session 6 - Inheritance and Polymorphism,"Inheritance concepts, method overriding, polymorphism","Develop simple class hierarchies, demonstrate method overriding and polymorphism"
+Session 7 - Exception Handling,"Handling errors using try-catch blocks, creating custom exceptions","Write code to handle exceptions, create custom exception classes"
+Session 8 - Input/Output Operations,"Performing file input/output operations, reading from and writing to files",Create programs to read from and write to text files
+Session 9 - Collections Framework,"Using ArrayList, HashMap and other collections classes, generics","Implement and manipulate ArrayLists and HashMaps, use generics"
+Session 10 - Basic GUI Programming,"Introduction to basic GUI components, event handling","Create a simple GUI application with buttons, text fields, and event handling"
