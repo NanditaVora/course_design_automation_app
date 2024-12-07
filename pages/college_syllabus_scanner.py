@@ -17,7 +17,7 @@ import chromadb
 
 # Initialize session state
 def initalize_session_state():
-    st.session_state.response = ""
+    st.session_state.college_syllabus_response = ""
     st.session_state.content_written = False
     st.session_state.file_downloaded = False
     st.session_state.buffer = BytesIO()
@@ -114,7 +114,7 @@ def handle_get_response(uploaded_file, scan_topic):
     if st.button('Get Response'):
         if uploaded_file and scan_topic:
             response = process_query(uploaded_file, scan_topic)
-            st.session_state.response = response
+            st.session_state.college_syllabus_response = response
             return response
         else:
             st.warning("Please upload a file and enter a prompt.")
@@ -136,8 +136,8 @@ def confirm_file_download():
 def get_pdf_files(directory):
     return [f for f in os.listdir(directory) if f.endswith('.pdf')]
 
-# Function to create Streamlit app
-def create_pdf_selector_app(pdf_directory,inputbox):
+# Function to design dropdown for college syllabus files
+def create_pdf_selector(pdf_directory,inputbox):
     inputbox.title("PDF File and Topic Selector")
 
     # Get list of PDF files
@@ -157,28 +157,28 @@ def main():
         # Directory containing PDF files
         pdf_directory = "inputs/college-syllabi"
 
-        # Create the Streamlit app
-        uploaded_file = create_pdf_selector_app(pdf_directory, inputbox)
+        # Create dropdown for college syllabus files
+        college_syllabus_file = create_pdf_selector(pdf_directory, inputbox)
 
         # scan_topic = inputbox.text_area("Enter the comma-separated keywords that will be used for scanning")
         scan_topic = inputbox.selectbox("Select topics that need to be searched in the selected college syllabus file",
                                         ["Java", "Database", "Object Oriented Programming", "OOPs", "JavaScript", "React",
                                          "Angular", "Spring"])
 
-        handle_get_response(uploaded_file, scan_topic)
-    if "response" not in st.session_state:
+        handle_get_response(college_syllabus_file, scan_topic)
+    if "college_syllabus_response" not in st.session_state:
         initalize_session_state()
 
-    if st.session_state.response:
+    if st.session_state.college_syllabus_response:
         st.header("Response")
         # Save Response Button
         if st.button('Save Response to DOCX'):
-            doc = write_or_append_docx(f"outputs/{scan_topic}_college_syllabus.docx", uploaded_file, st.session_state.response)
+            doc = write_or_append_docx(f"outputs/college_syllabus/{scan_topic}_college_syllabus.docx", college_syllabus_file, st.session_state.college_syllabus_response)
             save_doc(doc)
 
         if st.session_state.content_written:
-            st.markdown("Content Written Successfully")
-        st.markdown(st.session_state.response)
+            st.markdown(f"Content of file **{college_syllabus_file}** written Successfully")
+        st.markdown(st.session_state.college_syllabus_response)
 
 
 

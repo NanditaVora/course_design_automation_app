@@ -15,7 +15,7 @@ def main():
         subject = inputs.selectbox("Select Course",["MySQL Database","Java Programming","Object Oriented Programming using Java"])
         course_type = inputs.selectbox("Select Course Type",["Foundational","Advanced"])
         course_design = inputs.selectbox("Select Course Design Type",["Topic Driven","Problem Driven"])
-        course_duration = inputs.text_input("Enter Course Duration Details")
+        course_duration = inputs.text_input("Enter Course Duration Details","10 sessions each of 2 hour concept session")
         audience_type = inputs.selectbox("Select Audience Type",["College Students","Working Professionals"])
         audience_proficiency_level = inputs.selectbox("Select Proficiency Level",["Beginner - No Prior Background","Intermediate - Basic Programming Skills","Advanced - Has Work Experience"])
         if st.button("Generate Prompt"):

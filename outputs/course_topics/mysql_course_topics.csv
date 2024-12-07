@@ -1,0 +1,11 @@
+﻿Session,Topic,Subtopics
+1,Introduction to Databases & MySQL,"What is a Database?,Types of Databases,Installing MySQL,Basic MySQL Commands"
+2,MySQL Data Types & Operators,"Understanding Data Types,String Types,Numeric Types,Date and Time Types,Operators in MySQL"
+3,Basic SQL Commands,"Creating Databases and Tables,Inserting Data,Selecting Data,Updating Data,Deleting Data"
+4,Advanced SQL Commands & Functions,"Aggregate Functions,String Functions,Date and Time Functions,Conditional Functions,Views"
+5,Database Design Principles,"Database Design Overview,Entity-Relationship Model,Primary Key & Foreign Key,Designing a Simple Database"
+6,Normalization & Indexing,"Normalization Concepts,Normal Forms,Denormalization,Creating Indexes,Using Indexes for Optimization"
+7,Joins & Subqueries,"Inner Joins,Outer Joins,Self Joins,Subqueries,Correlated Subqueries"
+8,Stored Procedures & Triggers,"Introduction to Stored Procedures,Creating Stored Procedures,Using Parameters,Introduction to Triggers,Creating Triggers"
+9,Database Security & Backup,"User Management,Privileges and Roles,Securing the Database,Backup Strategies,Restoring Data"
+10,Course Review & Final Project,"Review of Key Concepts,Best Practices,Final Project Introduction,Project Development,Project Presentation"
