@@ -43,58 +43,48 @@ def main():
             
             Format the response as a single, direct prompt that can be immediately used by another AI system.
              
-            
-            # Generate prompt using the following inputs that will help to generate topics with subtopics in tabular structure for training program:
-            # Subject: {subject}
-            # Course Design: {course_design}
-            # Course Type: {course_type}
-            # Course Duration: {course_duration}
-            # Audience Type: {audience_type}
-            # Audience Proficiency Level: {audience_proficiency_level}
-            # Additional Instruction: Ensure you only generate the prompt and not the topics.
-            # Important Note: Do not include any introductory or closing lines in your response so that the prompt can be copied as is.
-            """
+           """
             prompt_response = get_response(topic_prompt)
             st.code(prompt_response,language=None)
-            st.session_state.topic_prompt = prompt_response
-    if(st.session_state.topic_prompt):
-        if prompt := st.chat_input("Say Something"):
-            st.chat_message("user").write(prompt)
-            st.session_state.response = get_response(prompt + """
-                        Provide the list of topics as Python dataframe object literal like 
-                        {"key":["val1","val2"]}
-                        and do not include any opening or closing lines in your response or even any additional python code lines like import or print statements. Return only the dataframe object as literal.
-                        """
-                        )
-            # st.dataframe(topic_response)
-            # st.session_state.response = topic_response
+            # st.session_state.topic_prompt = prompt_response
+    # if(st.session_state.topic_prompt):
+    if prompt := st.chat_input("Say Something"):
+        st.chat_message("user").write(prompt)
+        st.session_state.response = get_response(prompt + """
+                    Provide the list of topics as Python dataframe object literal like 
+                    {"key":["val1","val2"]}
+                    and do not include any opening or closing lines in your response or even any additional python code lines like import or print statements. Return only the dataframe object as literal.
+                    """
+                    )
+        # st.dataframe(topic_response)
+        # st.session_state.response = topic_response
+    if st.session_state.response:
+        array_object = json.loads(st.session_state.response)
+        st.dataframe(array_object)
         if st.session_state.response:
-            array_object = json.loads(st.session_state.response)
-            st.dataframe(array_object)
-            if st.session_state.response:
-                if st.button("Generate CTKS"):
-                    ctks_prompt = f"""
-                        Refer to the topics given below for the subject MySQL Foundation Course:
-                         {st.session_state.response}
-                        
-                        Instructions:
-                        Please generate the Competency, Task, Knowledge, and Skills (CTKS) for the MySQL foundation course based on the topics listed above with the relevant details for the program which is of duration is 40 hours, divided into 10 sessions, each with 2 hours of concept learning and 2 hours of practice session. There should be only 10 CTKS with each CTKS getting mapped against one 2 hour concept session ensuring it covers all the topics listed.
-                        The CTKS should be suitable for a beginner-level course and should include the following:
-                        
-                        1. **Competency**: The overall ability or proficiency that the learner should achieve.
-                        2. **Task**: Specific tasks or activities that the learner should be able to perform.
-                        3. **Knowledge**: The theoretical understanding and information that the learner should acquire.
-                        4. **Skills**: The practical abilities and techniques that the learner should develop.
-                        
-                        Example Format:
-                        The CTKS should be downloadable as Python dataframe object literal like 
-                        [{{"competency":"value"}},{{"task":["val1","val2"]}},{{"knowledge":["val1","val2"]}},{{"skill":["val1","val2"]}}].
-                        
-                        Additional Instructions
-                        Do not include any opening or closing lines in your response or even any additional python code lines like import or print statements. 
-                        Return only the dataframe object as literal.
-                        """
-                    print(ctks_prompt)
-                    ctks_response = get_response((ctks_prompt))
-                    st.dataframe(json.loads(ctks_response))
+            if st.button("Generate CTKS"):
+                ctks_prompt = f"""
+                    Refer to the topics given below for the subject MySQL Foundation Course:
+                     {st.session_state.response}
+                    
+                    Instructions:
+                    Please generate the Competency, Task, Knowledge, and Skills (CTKS) for the MySQL foundation course based on the topics listed above with the relevant details for the program which is of duration is 40 hours, divided into 10 sessions, each with 2 hours of concept learning and 2 hours of practice session. There should be only 10 CTKS with each CTKS getting mapped against one 2 hour concept session ensuring it covers all the topics listed.
+                    The CTKS should be suitable for a beginner-level course and should include the following:
+                    
+                    1. **Competency**: The overall ability or proficiency that the learner should achieve.
+                    2. **Task**: Specific tasks or activities that the learner should be able to perform.
+                    3. **Knowledge**: The theoretical understanding and information that the learner should acquire.
+                    4. **Skills**: The practical abilities and techniques that the learner should develop.
+                    
+                    Example Format:
+                    The CTKS should be downloadable as Python dataframe object literal like 
+                    [{{"competency":"value"}},{{"task":["val1","val2"]}},{{"knowledge":["val1","val2"]}},{{"skill":["val1","val2"]}}].
+                    
+                    Additional Instructions
+                    Do not include any opening or closing lines in your response or even any additional python code lines like import or print statements. 
+                    Return only the dataframe object as literal.
+                    """
+                print(ctks_prompt)
+                ctks_response = get_response((ctks_prompt))
+                st.dataframe(json.loads(ctks_response))
 main()
