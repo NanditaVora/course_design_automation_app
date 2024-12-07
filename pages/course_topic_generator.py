@@ -48,7 +48,7 @@ def main():
             st.code(prompt_response,language=None)
             # st.session_state.topic_prompt = prompt_response
     # if(st.session_state.topic_prompt):
-    if prompt := st.chat_input("Say Something"):
+    if prompt := st.chat_input("Copy the Generated Prompt, Edit it if required and Press Enter to Execute"):
         st.chat_message("user").write(prompt)
         st.session_state.response = get_response(prompt + """
                     Provide the list of topics as Python dataframe object literal like 
