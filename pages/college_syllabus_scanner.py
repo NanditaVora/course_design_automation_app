@@ -151,7 +151,7 @@ def create_pdf_selector(pdf_directory,inputbox):
 def main():
     st.title("Welcome to Course Design Automation App")
     "**In this stage, GenAI plays the role of File Scanner and helps list topics from the selected college syllabus file.**"
-
+    st.divider()
     with st.sidebar:
         inputbox = st.container(height=300)
         # Directory containing PDF files
@@ -163,7 +163,7 @@ def main():
         # scan_topic = inputbox.text_area("Enter the comma-separated keywords that will be used for scanning")
         scan_topic = inputbox.selectbox("Select topics that need to be searched in the selected college syllabus file",
                                         ["Java", "Database", "Object Oriented Programming", "OOPs", "JavaScript", "React",
-                                         "Angular", "Spring"])
+                                         "Angular", "Spring", "Python"])
 
         handle_get_response(college_syllabus_file, scan_topic)
     if "college_syllabus_response" not in st.session_state:

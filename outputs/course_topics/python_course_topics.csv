@@ -1,0 +1,11 @@
+﻿Serial Number,Main Topic,Subtopics
+1,Introduction to Python,"Overview of Python and its History,Setting up Python Environment,Writing and Executing First Python Program,Basic Syntax and Structure,Using Python IDEs and Tools"
+2,Data Types and Variables,"Numbers, Strings, and Booleans,Variables and Constants,Type Casting and Conversion,String Operations and Formatting"
+3,Control Structures,"If Statements,Else and Elif Clauses,Nested Control Structures,Loops (for, while),Break and Continue Statements"
+4,Functions,"Defining and Calling Functions,Function Parameters and Return Values,Scope of Variables,Lambda Functions,Built-in Functions,Higher-order Functions"
+5,Collections,"Lists,Tuples,Sets,Dictionaries,List Comprehensions,Understanding Iterators"
+6,File Handling,"Reading from Files,Writing to Files,Working with File Paths,Handling CSV and JSON Files"
+7,Exception Handling,"Understanding Exceptions,Exception Handling using Try-Except,Finally Clause,Raising Exceptions,Creating Custom Exceptions"
+8,Modules and Packages,"Importing Modules,Using Standard Libraries,Building and Importing Custom Modules,Understanding Packages and Namespaces"
+9,Introduction to Object-Oriented Programming (OOP),"OOP Concepts: Classes and Objects,Defining and Using Methods,Class and Instance Variables,Encapsulation, Inheritance, and Polymorphism"
+10,Working with Libraries,"Introduction to Popular Libraries (e.g. NumPy, pandas),Basic Usage and Functions,Finding and Installing External Libraries,Creating Virtual Environments"

@@ -1,0 +1,11 @@
+﻿competency,task,knowledge,skill
+Understand the basics of Python programming,"Set up the Python environment,Write and execute a basic Python program","Overview of Python and its history,Basic syntax and structure",Using Python IDEs and tools
+Learn about data types and variables in Python,"Identify different data types in Python,Perform type casting and conversion","Numbers, strings, and booleans,Variables and constants",String operations and formatting
+Implement control structures in Python,"Utilize if statements and loops,Use break and continue statements","If statements,Loops (for, while)",Writing nested control structures
+Develop and use functions in Python,"Define and call functions,Pass parameters and return values","Function parameters and return values,Scope of variables",Using built-in and lambda functions
+Work with collections in Python,"Create and manipulate lists, tuples, sets, and dictionaries,Use list comprehensions","Lists and tuples,Dictionaries and sets",Understanding iterators
+Handle files in Python,"Read from and write to files,Work with file paths and formats","Reading from files,Handling CSV and JSON files",File path handling
+Manage exceptions in Python,"Handle exceptions using try-except,Raise and create custom exceptions","Understanding exceptions,Creating custom exceptions",Using finally clause
+Utilize modules and packages in Python,"Import and use standard libraries,Build and import custom modules","Using standard libraries,Understanding packages and namespaces",Building custom modules
+Apply OOP concepts in Python,"Define and use classes and objects,Implement encapsulation, inheritance, and polymorphism","OOP concepts: classes and objects,Class and instance variables",Defining and using methods
+Work with Python libraries,"Use popular libraries like NumPy and pandas,Create and manage virtual environments","Basic usage and functions of libraries,Finding and installing external libraries",Creating virtual environments

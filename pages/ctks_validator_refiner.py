@@ -65,6 +65,7 @@ def main():
     """
     **It also suggests refined CTKS based on the inputs from college syllabus topics.**
     """
+    st.divider()
 
     with st.sidebar:
         inputbox = st.container(height=300)

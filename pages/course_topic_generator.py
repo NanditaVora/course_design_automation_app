@@ -13,26 +13,26 @@ def main():
     with st.sidebar:
         response_button_clicked = st.button("Generate Prompt")
         inputs = st.container(height=500)
-        inputs.title("Inputs for Topics Generation")
-        subject = inputs.selectbox("Select Course",["MySQL Database","Java Programming","Object Oriented Programming using Java"])
+        inputs.title("Inputs for Prompt Generation")
+        subject = inputs.selectbox("Select Course",["MySQL Database","Java Programming","Object Oriented Programming using Java","Python Programming Fundamentals"])
         course_type = inputs.selectbox("Select Course Type",["Foundational","Advanced"])
-        course_design = inputs.selectbox("Select Course Design Type",["Topic Driven","Problem Driven"])
+        # course_design = inputs.selectbox("Select Course Design Type",["Problem Driven", "Topic Driven"])
         course_duration = inputs.text_input("Enter Course Duration Details","10 sessions each of 2 hour concept session")
         audience_type = inputs.selectbox("Select Audience Type",["College Students","Working Professionals"])
         audience_proficiency_level = inputs.selectbox("Select Proficiency Level",["Beginner - No Prior Background","Intermediate - Basic Programming Skills","Advanced - Has Work Experience"])
+        project_included = inputs.checkbox("Include Topic for Project")
+
         if response_button_clicked:
             topic_prompt = f"""
             
-            Generate a precise, structured prompt template that will help create a comprehensive training program curriculum with topics and subtopics. The prompt should be designed to extract detailed information for curriculum development, using the following inputs as a guide:
-
-            You are an expert curriculum designer tasked with creating a detailed training program outline. Generate a comprehensive, multi-level topic and subtopic structure in a tabular format based on the following specifications:
-            
+            Generate a precise, structured prompt template that will help create a comprehensive training program curriculum with topics and subtopics based on the following inputs:
             Subject: {subject}
-            Course Design: {course_design}
+            
             Course Type: {course_type}
             Course Duration: {course_duration}
             Audience Type: {audience_type}
             Audience Proficiency Level: {audience_proficiency_level}
+            Should Topic for Project be Included: {project_included}
             
             IMPORTANT CONSTRAINTS:
             1. Produce ONLY the prompt template.
@@ -42,12 +42,20 @@ def main():
             5. The prompt should request a comprehensive, hierarchical breakdown of the training program content.
             
             Format the response as a single, direct prompt that can be immediately used by another AI system.
+            
+            The prompt should be designed to extract detailed information for curriculum development, using the following sample:
+
+            You are an expert curriculum designer tasked with creating a detailed training program outline. 
+            
+            Generate a comprehensive, multi-level topic and subtopic structure in a tabular format based on the given specifications in following tabular structure:
+            
+            | Serial Number | Main Topic | Subtopics |
+            |----------------|------------|-----------|           
              
            """
             prompt_response = get_response(topic_prompt)
             st.code(prompt_response,language=None)
-            # st.session_state.topic_prompt = prompt_response
-    # if(st.session_state.topic_prompt):
+
     if prompt := st.chat_input("Copy the Generated Prompt, Edit it if required and Press Enter to Execute"):
         st.chat_message("user").write(prompt)
         st.session_state.response = get_response(prompt + """
@@ -59,6 +67,7 @@ def main():
         # st.dataframe(topic_response)
         # st.session_state.response = topic_response
     if st.session_state.response:
+        # st.write(st.session_state.response)
         array_object = json.loads(st.session_state.response)
         st.dataframe(array_object)
         if st.session_state.response:
