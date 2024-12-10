@@ -1,4 +1,3 @@
-import datetime
 import os
 from io import BytesIO
 from docx import Document
@@ -26,12 +25,12 @@ def initalize_session_state():
 def initialize_vector_store(uploaded_file):
     loader = PyPDFLoader(f"inputs/college-syllabi/{uploaded_file}")
     documents = loader.load()
-    text = RecursiveCharacterTextSplitter().split_documents(documents)
+    text_splits = RecursiveCharacterTextSplitter().split_documents(documents)
 
     embeddings = HuggingFaceEmbeddings(model_name="BAAI/bge-small-en-v1.5",
                                        encode_kwargs={"normalize_embeddings": True})
     chromadb.api.client.SharedSystemClient.clear_system_cache()
-    vectorstore = Chroma.from_documents(documents, embedding=embeddings)
+    vectorstore = Chroma.from_documents(text_splits, embedding=embeddings)
     return vectorstore
 
 # Create the LLM chain
@@ -138,7 +137,6 @@ def get_pdf_files(directory):
 
 # Function to design dropdown for college syllabus files
 def create_pdf_selector(pdf_directory,inputbox):
-    inputbox.title("PDF File and Topic Selector")
 
     # Get list of PDF files
     pdf_files = get_pdf_files(pdf_directory)
@@ -154,6 +152,8 @@ def main():
     st.divider()
     with st.sidebar:
         inputbox = st.container(height=300)
+        inputbox.title("PDF File and Subject Selector")
+
         # Directory containing PDF files
         pdf_directory = "inputs/college-syllabi"
 
@@ -162,8 +162,8 @@ def main():
 
         # scan_topic = inputbox.text_area("Enter the comma-separated keywords that will be used for scanning")
         scan_topic = inputbox.selectbox("Select topics that need to be searched in the selected college syllabus file",
-                                        ["Java", "Database", "Object Oriented Programming", "OOPs", "JavaScript", "React",
-                                         "Angular", "Spring", "Python"])
+                                        ["Java", "Database", "Object Oriented Programming", "HTML", "CSS","JavaScript",
+                                        "Python"])
 
         handle_get_response(college_syllabus_file, scan_topic)
     if "college_syllabus_response" not in st.session_state:
@@ -178,6 +178,8 @@ def main():
 
         if st.session_state.content_written:
             st.markdown(f"Content of file **{college_syllabus_file}** written Successfully")
+            st.session_state.content_written = False
+            st.session_state.college_syllabus_response=""
         st.markdown(st.session_state.college_syllabus_response)
 
 

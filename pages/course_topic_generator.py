@@ -14,7 +14,7 @@ def main():
         response_button_clicked = st.button("Generate Prompt")
         inputs = st.container(height=500)
         inputs.title("Inputs for Prompt Generation")
-        subject = inputs.selectbox("Select Course",["MySQL Database","Java Programming","Object Oriented Programming using Java","Python Programming Fundamentals"])
+        subject = inputs.selectbox("Select Course",["MySQL Database","Java: Object Oriented Programming","Python Programming Fundamentals"])
         course_type = inputs.selectbox("Select Course Type",["Foundational","Advanced"])
         # course_design = inputs.selectbox("Select Course Design Type",["Problem Driven", "Topic Driven"])
         course_duration = inputs.text_input("Enter Course Duration Details","10 sessions each of 2 hour concept session")
@@ -40,7 +40,7 @@ def main():
             3. The output must be a clear, copyable prompt that another AI can use to generate the curriculum.
             4. Ensure the prompt explicitly instructs the AI to create a tabular structure with main topics and subtopics.
             5. The prompt should request a comprehensive, hierarchical breakdown of the training program content.
-            
+            6. Give due justice to the title of the subject - {subject}
             Format the response as a single, direct prompt that can be immediately used by another AI system.
             
             The prompt should be designed to extract detailed information for curriculum development, using the following sample:
@@ -93,7 +93,8 @@ def main():
                     Do not include any opening or closing lines in your response or even any additional python code lines like import or print statements. 
                     Return only the dataframe object as literal.
                     """
-                print(ctks_prompt)
+                # print(ctks_prompt)
                 ctks_response = get_response((ctks_prompt))
                 st.dataframe(json.loads(ctks_response))
+                st.balloons()
 main()
