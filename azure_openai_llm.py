@@ -11,11 +11,12 @@ def get_response(prompt):
     client = AzureOpenAI(
         api_key=os.environ.get('AZURE_OPENAI_API_KEY_POC'),
         api_version= os.environ.get('API_VERSION_POC'),
-        azure_endpoint=os.environ.get('AZURE_OPENAI_ENDPOINT_POC')
+        azure_endpoint=os.environ.get('AZURE_OPENAI_ENDPOINT_POC'),
     )
 
     response = client.chat.completions.create(
         model=os.environ.get('DEPLOYMENT_NAME_POC'),
+        temperature=0.5,
         messages=[
             {
                 "role": "user",  # Specify the role

@@ -1,0 +1,11 @@
+﻿topic,sub_topics
+Java Programming Basics,"Variables,Declarations,Data Types,Operators,Conditional Statements,Loop Statements"
+Object-Oriented Programming in Java,"Classes and Objects,Inheritance,Polymorphism,Encapsulation,Abstraction"
+Advanced Java Programming,"Generics,Lambda Expressions,Streams API,Multithreading and Concurrency,Annotations"
+Java Collections Framework,"List,Set,Map,Queue,Iterator"
+Exception Handling in Java,"Try-Catch Block,Throw and Throws,Custom Exceptions,Finally Block"
+Java Input/Output (I/O),"File Handling,Streams,Readers and Writers,Serialization"
+Java Development Tools,"Integrated Development Environments (IDEs),Build Tools (Maven, Gradle),Version Control Systems (Git)"
+Java Networking,"Sockets,URL and URI,HTTP Communication,RESTful Services"
+Java Database Connectivity (JDBC),"JDBC Drivers,Connecting to Databases,Executing SQL Queries,Transaction Management"
+Java Design Patterns,"Singleton,Factory,Observer,Decorator,Strategy"

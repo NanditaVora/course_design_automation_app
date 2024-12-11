@@ -1,0 +1,11 @@
+﻿sprint_no,sprint_name,learning_objectives,problem_task_completed
+1,Introduction to Python,"Understand what Python is,Setup Python environment",Introduction to the course and setting up the Python environment on students' machines
+2,Basic Syntax and Data Types,"Learn basic syntax of Python,Identify and use different data types",Writing initial structure and datatype definitions for the Expense Tracker project
+3,Variables and Operations,"Declare and use variables,Perform arithmetic and logical operations",Implementing variables to hold expense data and performing basic calculations in the Expense Tracker project
+4,Control Structures,"Implement control structures,Write conditional statements",Adding conditional checks and loops to manage and iterate over expense data in the Expense Tracker project
+5,Functions,"Define and call functions,Use parameters and return values",Modularizing the Expense Tracker project using functions for different operations
+6,Collections,"Work with Python collections,Perform operations on collections",Utilizing lists and dictionaries to organize expense entries in the Expense Tracker project
+7,File Handling,"Open, read, and write files,Handle file exceptions",Implementing file reading and writing functionalities to store and load expense data
+8,OOP Concepts,"Understand and implement OOP concepts,Create classes and objects",Refactoring the Expense Tracker project using classes to encapsulate data and functionalities
+9,Exception Handling,"Implement exception handling in Python,Handle various exceptions",Implementing robust exception handling mechanisms in the Expense Tracker project
+10,Building LLM Application using Groq API,"Understand Groq API,Build simple LLM app using Groq",Integrating Groq API to predict future expenses in the Expense Tracker project

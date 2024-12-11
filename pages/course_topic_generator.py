@@ -1,8 +1,12 @@
 import streamlit as st
 from azure_openai_llm import get_response
 import json
+from docx import Document
+import csv
 
 def main():
+    st.set_page_config(layout="wide")
+
     if "response" not in st.session_state:
         st.session_state.response = ""
         st.session_state.topic_prompt = ""

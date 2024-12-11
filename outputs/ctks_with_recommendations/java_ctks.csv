@@ -1,0 +1,11 @@
+﻿competency,task,knowledge,skill
+Understand Java Basics,Write a 'Hello World' program in Java,"Introduction to Java Programming,Variable declaration,Datatypes in Java,Java Operators","Write simple Java programs,Write programs to perform arithmetic operations"
+Understand Java Control Flow,"Write programs using conditional statements,Implement loops in Java","Conditional Statements,Loop Statements","Use conditional statements in Java,Implement various types of loops in Java"
+Understand Fundamental Object-Oriented Concepts in Java,Create classes and objects in Java,Classes and Objects,Define and instantiate classes and objects
+Understand Functions in Java,"Write functions in Java,Call functions in a program","Function definition,Function calling,Function overloading","Define and call functions,Implement function overloading"
+Understand Arrays in Java,Create and manipulate arrays in Java,"Array declaration,Array initialization,Accessing array elements,Array operations","Create arrays,Perform operations on arrays"
+Master OOP Principles: Inheritance in Java,Implement inheritance in Java programs,Inheritance,Use inheritance to extend classes
+Master OOP Principles: Polymorphism in Java,Implement polymorphism in Java programs,Polymorphism,Use polymorphism to override and overload methods
+Master OOP Principles: Encapsulation in Java,Implement encapsulation using access modifiers,Encapsulation,Use access modifiers to protect data within a class
+Master OOP Principles: Abstraction in Java,Implement abstraction using abstract classes and interfaces,Abstraction,Define abstract classes and implement interfaces
+Understand Exception Handling in Java,Write programs to handle exceptions,"Try-Catch Block,Throw and Throws,Custom Exceptions,Finally Block","Handle exceptions using try-catch block,Throw and catch exceptions,Create custom exceptions"

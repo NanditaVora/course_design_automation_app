@@ -1,0 +1,88 @@
+﻿topic,sub_topic,exists_in_college_syllabus,exists_in_dump,Accept Topic for CTKS
+Java Programming Fundamentals,Data Types and Operators,Y,Y,Y
+Java Programming Fundamentals,Program Control Statements,Y,Y,Y
+Introducing Classes,Class Fundamentals,Y,Y,Y
+Introducing Classes,Declaring Objects,Y,Y,Y
+Introducing Classes,Introducing Methods,Y,Y,Y
+Methods and Classes,Overloading Methods,Y,Y,Y
+Methods and Classes,Returning Objects,Y,Y,Y
+Methods and Classes,Access Control,Y,Y,Y
+Methods and Classes,Static,Y,Y,Y
+Inheritance,Inheritance Basics,Y,Y,Y
+Inheritance,Using Super,Y,Y,Y
+Inheritance,Multilevel Hierarchy,Y,Y,Y
+Inheritance,Dynamic Method Dispatch,Y,Y,Y
+Inheritance,Using Abstract Class,Y,Y,Y
+Inheritance,Using final with Inheritance,Y,Y,Y
+Packages,Defining a package,Y,Y,N
+Packages,Importing Packages,Y,Y,N
+Interfaces,Implementing Interface,Y,Y,Y
+Interfaces,Nested Interfaces,Y,Y,Y
+String Handling,String Constructors,Y,Y,Y
+String Handling,Special String Operations,Y,Y,Y
+String Handling,Character Extraction,Y,Y,Y
+String Handling,String Comparison,Y,Y,Y
+Exception Handling,Fundamentals,Y,Y,Y
+Exception Handling,Uncaught Exceptions,Y,Y,Y
+Exception Handling,Using try and catch,Y,Y,Y
+Exception Handling,Multiple catch clauses,Y,Y,Y
+Exception Handling,Nested try statements,Y,Y,Y
+Exception Handling,"Throw, throws, Finally",Y,Y,Y
+Multithreaded Programming,Java Thread Model,Y,Y,N
+Multithreaded Programming,Main Thread,Y,N,N
+Multithreaded Programming,Creating Thread,Y,Y,N
+Multithreaded Programming,Creating multiple threads,Y,Y,N
+Multithreaded Programming,Thread Priorities,Y,Y,N
+Multithreaded Programming,Synchronization,Y,Y,N
+Generics,About Generics,Y,Y,N
+Generics,General Class with Two Type Parameters,Y,N,N
+Input/Output,Streams-byte streams and character streams,Y,Y,Y
+Input/Output,Reading console input,Y,Y,Y
+Input/Output,Reading characters,Y,Y,Y
+Input/Output,Reading strings,Y,N,TBD
+Input/Output,Writing console output,Y,N,TBD
+Input/Output,Reading and Writing files,Y,Y,Y
+Event Handling,Event Listeners,Y,N,N
+AWT,"Working with Windows, Graphics and Text",Y,N,N
+Principle of Programming Languages,Overview of different programming paradigms,Y,N,N
+Object-oriented design,Encapsulation and information-hiding,Y,N,Y
+Object Oriented Programming and Web Application using C#,Classes and Objects,Y,N,Y
+Fundamentals of Java Programming,Data Types,Y,Y,Y
+Fundamentals of Java Programming,Operators,Y,Y,Y
+Object-Oriented Programming in Java,Classes and Objects,Y,N,Y
+Object-Oriented Programming in Java,Inheritance,Y,N,Y
+Object-Oriented Programming in Java,Polymorphism,Y,N,Y
+Object-Oriented Programming in Java,Encapsulation,Y,N,Y
+Advanced Java Programming,Generics,Y,Y,N
+Advanced Java Programming,Lambda Expressions,N,Y,N
+Advanced Java Programming,Streams API,N,Y,N
+Advanced Java Programming,Multithreading and Concurrency,Y,Y,N
+Java Collections Framework,List,Y,Y,N
+Java Collections Framework,Set,Y,Y,N
+Java Collections Framework,Map,Y,Y,N
+Java Collections Framework,Queue,Y,Y,N
+Java Collections Framework,Iterator,Y,Y,N
+Exception Handling in Java,Try-Catch Block,Y,Y,Y
+Exception Handling in Java,Throw and Throws,Y,Y,Y
+Exception Handling in Java,Custom Exceptions,Y,Y,Y
+Exception Handling in Java,Finally Block,Y,Y,Y
+Java Input/Output (I/O),File Handling,Y,Y,N
+Java Input/Output (I/O),Streams,Y,Y,N
+Java Input/Output (I/O),Readers and Writers,Y,Y,N
+Java Input/Output (I/O),Serialization,Y,Y,N
+Java Development Tools,Integrated Development Environments (IDEs),N,Y,N
+Java Development Tools,"Build Tools (Maven, Gradle)",N,Y,N
+Java Development Tools,Version Control Systems (Git),N,Y,N
+Java Networking,Sockets,N,Y,N
+Java Networking,URL and URI,N,Y,N
+Java Networking,HTTP Communication,N,Y,N
+Java Networking,RESTful Services,N,Y,N
+Java Database Connectivity (JDBC),JDBC Drivers,Y,Y,N
+Java Database Connectivity (JDBC),Connecting to Databases,Y,Y,N
+Java Database Connectivity (JDBC),Executing SQL Queries,Y,Y,N
+Java Database Connectivity (JDBC),Transaction Management,N,Y,N
+Java Design Patterns,Singleton,N,Y,N
+Java Design Patterns,Factory,N,Y,N
+Java Design Patterns,Observer,N,Y,N
+Java Design Patterns,Decorator,N,Y,N
+Java Design Patterns,Strategy,N,Y,N

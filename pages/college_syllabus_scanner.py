@@ -147,6 +147,8 @@ def create_pdf_selector(pdf_directory,inputbox):
 
 # Streamlit UI
 def main():
+    st.set_page_config(layout="wide")
+
     st.title("Welcome to Course Design Automation App")
     "**In this stage, GenAI plays the role of File Scanner and helps list topics from the selected college syllabus file.**"
     st.divider()
