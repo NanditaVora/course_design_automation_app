@@ -1,3 +1,4 @@
+import pandas
 import streamlit as st
 from azure_openai_llm import get_response
 import json
@@ -18,7 +19,12 @@ def main():
         response_button_clicked = st.button("Generate Prompt")
         inputs = st.container(height=500)
         inputs.title("Inputs for Prompt Generation")
-        subject = inputs.selectbox("Select Course",["MySQL Database","Java: Object Oriented Programming","Python Programming Fundamentals"])
+        subject_list = pandas.read_csv("inputs/subject_list.csv")
+
+        subject = inputs.selectbox("Select topic that needs to be searched in the selected competition file",
+                                        subject_list.columns)
+
+
         course_type = inputs.selectbox("Select Course Type",["Foundational","Advanced"])
         # course_design = inputs.selectbox("Select Course Design Type",["Problem Driven", "Topic Driven"])
         course_duration = inputs.text_input("Enter Course Duration Details","10 sessions each of 2 hour concept session")

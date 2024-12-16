@@ -1,0 +1,46 @@
+﻿topic,sub_topic,exists_in_college_syllabus,exists_in_dump,exists_in_competition,Accept Topic for CTKS
+Java Programming Basics,Variables,Y,Y,NA,Y
+Java Programming Basics,Declarations,Y,Y,NA,Y
+Java Programming Basics,Data Types,Y,Y,NA,Y
+Java Programming Basics,Operators,Y,Y,NA,Y
+Java Programming Basics,Conditional Statements,Y,Y,NA,Y
+Java Programming Basics,Loop Statements,Y,Y,NA,Y
+Object-Oriented Programming in Java,Classes and Objects,Y,Y,NA,Y
+Object-Oriented Programming in Java,Inheritance,Y,Y,NA,Y
+Object-Oriented Programming in Java,Polymorphism,Y,Y,NA,Y
+Object-Oriented Programming in Java,Encapsulation,Y,Y,NA,Y
+Object-Oriented Programming in Java,Abstraction,Y,Y,NA,Y
+Advanced Java Programming,Generics,Y,Y,NA,N
+Advanced Java Programming,Lambda Expressions,Y,Y,NA,N
+Advanced Java Programming,Streams API,N,Y,NA,N
+Advanced Java Programming,Multithreading and Concurrency,Y,Y,NA,N
+Advanced Java Programming,Annotations,N,Y,NA,N
+Java Collections Framework,List,N,Y,NA,N
+Java Collections Framework,Set,N,Y,NA,N
+Java Collections Framework,Map,N,Y,NA,N
+Java Collections Framework,Queue,N,Y,NA,N
+Java Collections Framework,Iterator,N,Y,NA,N
+Exception Handling in Java,Try-Catch Block,Y,Y,NA,Y
+Exception Handling in Java,Throw and Throws,Y,Y,NA,Y
+Exception Handling in Java,Custom Exceptions,Y,Y,NA,N
+Exception Handling in Java,Finally Block,Y,Y,NA,Y
+Java Input/Output (I/O),File Handling,Y,Y,NA,N
+Java Input/Output (I/O),Streams,Y,Y,NA,N
+Java Input/Output (I/O),Readers and Writers,Y,Y,NA,N
+Java Input/Output (I/O),Serialization,Y,Y,NA,N
+Java Development Tools,Integrated Development Environments (IDEs),N,Y,NA,N
+Java Development Tools,"Build Tools (Maven, Gradle)",N,Y,NA,N
+Java Development Tools,Version Control Systems (Git),N,Y,NA,N
+Java Networking,Sockets,N,Y,NA,N
+Java Networking,URL and URI,N,Y,NA,N
+Java Networking,HTTP Communication,N,Y,NA,N
+Java Networking,RESTful Services,N,Y,NA,N
+Java Database Connectivity (JDBC),JDBC Drivers,Y,Y,NA,N
+Java Database Connectivity (JDBC),Connecting to Databases,Y,Y,NA,N
+Java Database Connectivity (JDBC),Executing SQL Queries,Y,Y,NA,N
+Java Database Connectivity (JDBC),Transaction Management,Y,Y,NA,N
+Java Design Patterns,Singleton,N,Y,NA,N
+Java Design Patterns,Factory,N,Y,NA,N
+Java Design Patterns,Observer,N,Y,NA,N
+Java Design Patterns,Decorator,N,Y,NA,N
+Java Design Patterns,Strategy,N,Y,NA,N

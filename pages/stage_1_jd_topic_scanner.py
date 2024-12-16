@@ -1,5 +1,7 @@
 import os
 from io import BytesIO
+
+import pandas
 from docx import Document
 import streamlit as st
 from dotenv import load_dotenv
@@ -146,6 +148,7 @@ def process_query(uploaded_file, scan_topic, experience, learner_profile):
         - Return only the JSON-like list
                 
     """
+    query
     # query = f"""
     #     List down the topics and sub-topics related to {scan_topic} which are in demand from the candidates whose experience level is {experience}.
     #     The topics and the sub-topics should be relevant to the audience with the {learner_profile} level profile.
@@ -226,10 +229,10 @@ def main():
         # Create dropdown for dump files
         dump_file = create_file_selector(dump_directory, inputbox)
 
-        scan_topic = inputbox.selectbox("Select topic that needs to be searched in the selected dump file",
-                                        ["Java", "Database", "Object Oriented Programming", "HTML", "CSS","JavaScript",
-                                        "Python",
-                                         "Low-Code No-Code - Citizen Developer"])
+        subject_list = pandas.read_csv("inputs/subject_list.csv")
+
+        scan_topic = inputbox.selectbox("Select topic that needs to be searched in the selected competition file",
+                                        subject_list.columns)
 
         experience = inputbox.selectbox("Select Experience Level",["Fresher","1-5 years","5-10 years", "10+ years"])
 

@@ -1,0 +1,239 @@
+Platform,Course Name,Overview,What You'll Learn,Level,Pre-requisites Required,Module #,Module,Video Title,Duration (mins)
+Coursera (Specialization),Building No-Code Apps with AppSheet: Foundations,,"• Learn about no-code app development and the use cases for building no-code apps.
+• Learn to navigate the AppSheet UI and editor to build and test a no-code app.
+• Learn the publishing process to deploy and publish an app for end users.
+• Create and deploy a simple app.",Beginner,None,1,Introducing the AppSheet Course,Course Introduction,1
+,,,,,,2,Overview of AppSheet,Module Overview (Preview Module),0
+,,,,,,,,History of Apps,1
+,,,,,,,,Fundamentals of No-Code App Development,9
+,,,,,,,,What is AppSheet?,3
+,,,,,,,,AppSheet Use Cases,2
+,,,,,,,,Demo,10
+,,,,,,,,Module Review,0
+,,,,,,3,Getting Started,Module Overview (Preview Module),0
+,,,,,,,,Signing in to AppSheet,1
+,,,,,,,,Creating Your First App,10
+,,,,,,,,Testing Your App,1
+,,,,,,,,Sharing Your App,2
+,,,,,,,,Lab: Creating a Basic App Using AppSheet,0
+,,,,,,,,Getting Started with Google Cloud Platform and Qwiklabs,4
+,,,,,,,,Module Review,0
+,,,,,,4,Using Data Sources,Module Overview (Preview Module),0
+,,,,,,,,Using Data Sources,3
+,,,,,,,,Defining the Data Structure in Your App,9
+,,,,,,,,Using More than One Table in Your App,5
+,,,,,,,,Demo,16
+,,,,,,,,Lab: Configuring Data for Your App Using AppSheet,0
+,,,,,,,,Module Review,0
+,,,,,,5,Defining UX,Module Overview (Preview Module),0
+,,,,,,,,Introduction to AppSheet Views,9
+,,,,,,,,Using Views in AppSheet,5
+,,,,,,,,Customizing the UX of Your App,6
+,,,,,,,,Demo,15
+,,,,,,,,Lab: Implementing the User Experience for Your App,0
+,,,,,,,,Module Review,0
+,,,,,,6,Module 5: App Publication,Module Overview (Preview Module),0
+,,,,,,,,App Deployment Process,3
+,,,,,,,,Deployment Methods,3
+,,,,,,,,Testing Your App,1
+,,,,,,,,Sharing Your App,2
+,,,,,,,,Lab: Publishing Your App Using AppSheet,0
+,,,,,,,,Module Review,0
+,,,,,,7,Review,Course Review,2
+,Building No-Code Apps with AppSheet: Implementation,,"• Organize and manage the data used by your app.  Add actions, behaviors and automation to your app.
+• Learn how to improve the performance of your app, manage app versions and upgrade your app.
+• Control access to your app and its data, and integrate your app with external services.
+• Collaborate and author your app with your team, and learn how to troubleshoot problems with your app.",Intermediate,Building No-Code Apps with AppSheet: Foundations,1,Introduction,Course Introduction,1
+,,,,,,2,Understanding Data,Organizing Data for Your App (Preview Module),7
+,,,,,,,,Using Keys,7
+,,,,,,,,AppSheet Data Types,11
+,,,,,,,,App Column Formulas,2
+,,,,,,,,AppSheet Expressions,13
+,,,,,,,,Slices,3
+,,,,,,,,Constraints,2
+,,,,,,,,Data Validation,4
+,,,,,,,,Getting Started with Google Cloud Platform and Qwiklabs,4
+,,,,,,,,Lab: Working with Data in AppSheet,0
+,,,,,,,,Module Review,0
+,,,,,,3,Adding Functionality,Actions (Preview Module),5
+,,,,,,,,Actions for App Navigation,9
+,,,,,,,,Actions for Data Changes,5
+,,,,,,,,Actions for External Communication,6
+,,,,,,,,Composite Actions,1
+,,,,,,,,Lab: Adding Actions to an App in AppSheet,0
+,,,,,,,,Automation,3
+,,,,,,,,Using Offline Sync,3
+,,,,,,,,View Events,5
+,,,,,,,,Customizing Input Forms,5
+,,,,,,,,Lab: Using View Events and Custom Forms in AppSheet,0
+,,,,,,,,Module Review,0
+,,,,,,4,App Security,AppSheet Security (Preview Module),6
+,,,,,,,,Application Access Control,4
+,,,,,,,,Data Access Control,2
+,,,,,,,,Authentication and Authorization,5
+,,,,,,,,Security Filters,10
+,,,,,,,,Auditing,1
+,,,,,,,,Lab: Securing Your AppSheet App,0
+,,,,,,,,Private Tables,2
+,,,,,,,,Using Sensitive Information,0
+,,,,,,,,Module Review,0
+,,,,,,5,External Integrations,AppSheet REST API (Preview Module),7
+,,,,,,,,Apigee REST API,4
+,,,,,,,,AppSheet Webhooks,4
+,,,,,,,,Webhook to the AppSheet API,3
+,,,,,,,,Custom Webhooks,2
+,,,,,,,,Lab: Integrating Your AppSheet App with External Services,0
+,,,,,,,,Module Review,0
+,,,,,,6,Scalability and Performance,Data Scalability (Preview Module),10
+,,,,,,,,AppSheet User Settings,3
+,,,,,,,,Lab: Using Data Partitions with Your AppSheet App,0
+,,,,,,,,App Performance,11
+,,,,,,,,Using Large Datasets,3
+,,,,,,,,Multi-language App Support,7
+,,,,,,,,App User Feedback,2
+,,,,,,,,Module Review,0
+,,,,,,7,Management Functions,Versioning Your App (Preview Module),4
+,,,,,,,,Upgrading Your App,6
+,,,,,,,,Monitoring Your App,4
+,,,,,,,,App Authoring,4
+,,,,,,,,Team Collaboration,8
+,,,,,,,,Module Review,0
+,,,,,,8,Troubleshooting,"Data, Access, and Sync Errors (Preview Module)",10
+,,,,,,,,Troubleshooting Common Problems,5
+,,,,,,,,Module Review,0
+,,,,,,9,Course Review,Course Review (Preview Module),2
+,Building No-Code Apps with AppSheet: Automation,,"• Define business process automation and recognize its use cases in an organization.
+• Learn how AppSheet automation can automate business processes.
+• Implement automation in your app with AppSheet automation constructs.",Intermediate,Building No-Code Apps with AppSheet: Implementation,1,Introduction,Course Introduction,1
+,,,,,,2,Business Process Implementation,Introduction to Business Process Automation (Preview Module),2
+,,,,,,,,AppSheet Automation Overview,3
+,,,,,,,,Patterns for Automation,7
+,,,,,,,,Demo: AppSheet Automation,7
+,,,,,,,,Module Review,0
+,,,,,,,,Quiz: Implementing Business Processes,8
+,,,,,,3,AppSheet Automation,AppSheet Automation (Preview Module),5
+,,,,,,,,Automation Features,11
+,,,,,,,,Auto Constructs and Looping,4
+,,,,,,,,Getting Started with Google Cloud and Qwiklabs,4
+,,,,,,,,Lab: Implementing Automation in AppSheet,0
+,,,,,,,,Apps Script Integration,7
+,,,,,,,,Lab: Using Apps Script with AppSheet Automation,0
+,,,,,,,,Monitoring Automation,3
+,,,,,,,,Module Review,0
+,,,,,,,,Quiz: AppSheet Automation,10
+,,,,,,4,Notifications and Reports,Push Notifications (Preview Module),10
+,,,,,,,,Template Variables,4
+,,,,,,,,Lab: Sending Push Notifications with AppSheet Automation,0
+,,,,,,,,Embedded App View Emails,6
+,,,,,,,,Lab: Interacting with Embedded App View Emails in AppSheet,0
+,,,,,,,,Messaging from a Bot,4
+,,,,,,,,Generating Files and Reports,11
+,,,,,,,,Lab: Generating Reports with AppSheet Automation,0
+,,,,,,,,Processing Documents,12
+,,,,,,,,Lab: Processing Documents in AppSheet,0
+,,,,,,,,Module Review,0
+,,,,,,,,Quiz: Notifications and Reports,10
+,,,,,,5,Course Review,Course Review (Preview Module),1
+Coursera (Project),Create a no-code responsive website with Webflow,,"• Create a website using Webflow, learning how to use this powerful no code editor
+• Build multimedia interactive content and shape the layout
+• Plan responsive web design to publish cross-device",Beginner,None,,Project Based Training,"In this 2 hour project you will develop a small website with no coding using Webflow, learning all the most important elements of building site with this tool. You will create layouts with containers, columns and grids, create static and reusable content, add forms and call to action, and ensuring a responsive design adapting the page to tablet and mobile devices.",120
+,,,,,,,,"Learn step-by-step
+In a video that plays in a split-screen with your work area, your instructor will walk you through these steps:",
+,,,,,,,,"• Introduction and account creation
+• Create a column and grid layout
+• Create a top navigation bar
+• Create an hero image and cover
+• Add text and media content
+• Add pages and symbols
+• Add a form and call to action
+• Personalize utility pages
+• Add responsive design and publish the website",
+Coursera (Project),Create a no-code one page SMB website with Carrd,," • Learn the strategy for building an SMB one page website
+• Create and style a one page website with containers, scrollpoints, text and images.
+• Add  a business call to action with buttons and an interactive form",Beginner,None,,Project Based Training,"In this project you will create a  one page website for a small/medium business without any need of coding using Carrd.co online editor. You will learn the strategy to create a one page website, edit text and images, style containers and build the layout, include buttons and calls to action, and an interactive quote  generation form.",120
+,,,,,,,,"Learn step-by-step
+In a video that plays in a split-screen with your work area, your instructor will walk you through these steps:",
+,,,,,,,,"• Introduction and creating an account
+• Create top bar
+• Create and style containers
+• Create scrollpoints and sections
+• Add text content
+• Add images content
+• Add and style buttons
+• Add icons
+• Add and style forms",
+Coursera (Course),Building No-code Apps using Amazon Honeycode,,"• Use Honeycode's visual interface for robust application creation, efficient data models, collaborative teamwork, and automation.",Beginner,None,1,Getting Started with Amazon Honeycode,Course Introduction (Preview Module),6
+,,,,,,,,AWS Account Setup and Navigation,11
+,,,,,,,,Overview of Amazon Honeycode,8
+,,,,,,,,Amazon Honeycode Workbook and Honeycode App,7
+,,,,,,,,Work with Amazon Honeycode Automation,8
+,,,,,,,,Advantages and Purpose-built Mean of Amazon Honeycode,6
+,,,,,,,,Tables in Amazon Honeycode,6
+,,,,,,,,Format Table Columns in Amazon Honeycode,5
+,,,,,,,,What are Amazon Honeycode Wizards,4
+,,,,,,,,Navigate the Amazon Honeycode Builder and Its Interface,7
+,,,,,,,,Learn Amazon Honeycode Builder and Live App,8
+,,,,,,,,Discuss Honeycode Objects and Its Categories,4
+,,,,,,,,Insert an Object into Live App,5
+,,,,,,,,User Interactions by Setting up Honeycode Automations,8
+,,,,,,,,Features and Benefits of Honeycode Automation,3
+,,,,,,,,Working of Honeycode Automations,5
+,,,,,,,,Collaborate in Amazon Honeycode,10
+,,,,,,,,What are Various Methods for Collaborating in Amazon Honeycode,4
+,,,,,,,,Teams in Amazon Honeycode,4
+,,,,,,,,Key Factors for Successful Development in Amazon Honeycode,5
+,,,,,,,,Project Description,5
+,,,,,,,,Workbook Creation,5
+,,,,,,,,Creating Picklist,5
+,,,,,,,,Adding Records in Database Tables,4
+,,,,,,,,Application Creation Using Builder,6
+,,,,,,,,Adding Automation,7
+,,,,,,,,Team Collaboration,7
+,,,,,,,,Pending Approval,9
+,,,,,,,,Testing Approval Application,7
+,,,,,,,Readings,Course Overview,5
+,,,,,,,,How to Use Discussion Forums,4
+,,,,,,,,Enhancing Data Presentation and Visualization with Effective Formatting,10
+,,,,,,,,Conditions in Honeycode Automations,10
+,,,,,,,,Practice Project: Streamlined Inventory Management System Using Amazon Honeycode,10
+,,,,,,,,Summary,7
+,,,,,,,Assignments,Knowledge Check: Introduction to Amazon Honeycode,5
+,,,,,,,,Knowledge Check: Design Tables in Amazon Honeycode,5
+,,,,,,,,Knowledge Check: Examine Amazon Honeycode Builder,5
+,,,,,,,,Knowledge Check: Examine Amazon Honeycode Automations,5
+,,,,,,,,Knowledge Check: Teamwork and Collaborate in Honeycode,5
+,,,,,,,,End Course Knowledge Check,20
+,,,,,,,Discussion Prompts,Share an Example of a Creative or Innovative Use of the Honeycode Workbook That Showcases Its Flexibility,5
+,,,,,,,,How Do Amazon Honeycode's Wizards Enhance the User Experience When Working on Tasks Such as Table Creation and Configuring Column Formats?,5
+,,,,,,,,What Are the Customization Options Available for Honeycode Objects When Building Apps Through the Amazon Honeycode Builder?,5
+,,,,,,,,What Are the Potential Challenges or Limitations One Might Encounter When Setting Up Complex Automations in Honeycode?,5
+,,,,,,,,Are There Any Limitations or Constraints in Amazon Honeycode That Might Impact the Extent of Collaboration or the Size of Development Teams?,5
+Udemy,Mendix : Low-code Application Development Course,,• Students will learn how to develope low code applications with Mendix.,"Who this course is for:
+• Software Engineers
+• IT employees who wants to learn mendix.","• Object Oriented Programming Concepts
+• HTML
+• CSS",1,Introduction,,24
+,,,,,,2,Creating Sales Management Pages,,6
+,,,,,,3,Domain Model,,24
+,,,,,,4,Creating Edit Pages & Generating Data,,30
+,,,,,,5,Mobile Applications,,47
+,,,,,,6,Microflows,,95
+,,,,,,7,XPATH,,13
+,,,,,,8,Security,,48
+,,,,,,9,Advanced Domain Model,,27
+,,,,,,10,Java Actions,,23
+,,,,,,11,Asynchronous Microflows,,7
+,,,,,,12,Consuming REST Services,,30
+,,,,,,13,Appstore - Custom Widgets,,10
+,,,,,,14,Adjusting User Interface and Final,,3
+,,,,,,15,Bonus Section,,1
+Udemy,Citizen Developers of Low-Code / No-Code,,• Citizen Developers of Low-Code / No-Code will obtain the necessary base knowledge they need for success. True you do not need to know what a developer knows but you do need to know about the concepts they use,This is especially designed for beginners and intermediate users considering Citizen Development of Low-Code / No-Code systems,None,1,Data Types,Beginners and intermediate users considering Citizen Development of Low-Code / No-Code systems,100
+,,,,,,2,Variables,,
+,,,,,,3,Functions Simplified Explanation,,
+,,,,,,4,Looping/iteration,,
+,,,,,,5,Conditions / Branching/ Decision Tree Logic,,
+,,,,,,6,Concept of persistent / non-persistent storage,,
+,,,,,,7,Collections / Arrays / Dictionaries,,
+,,,,,,8,Functions advanced,,
+,,,,,,9,JSON,,
+,,,,,,10,OOP Concepts,,

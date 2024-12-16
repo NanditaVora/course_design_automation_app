@@ -1,0 +1,10 @@
+﻿topic,sub_topics
+Introduction to Time Series,"Introduction and Intuition for Stationarity,Basic Analysis of Stationary Processes,Fundamentals of Time Series Forecasting"
+ARMA and ARIMA Models,"ARMA Processes and Their Autocorrelation Functions,Fitting Data to ARMA Models,Diagnostics and Order Selection,ARIMA Models"
+Stationarity and Nonstationarity,"Stationarity,Nonstationary Processes,Integrated Models"
+Autocorrelation and Partial Autocorrelation,"Autocorrelation Functions (ACF),Partial Autocorrelation Functions (PACF),Yule-Walker Equations"
+Seasonality and SARIMA Models,"Seasonality,SARIMA Models"
+Forecasting Techniques,"More on Forecasting,ETS Models,Analyzing and Visualizing Results"
+Bayesian Time Series Analysis,"Introduction to Time Series and the AR(1) Process,The AR(p) Process,Normal Dynamic Linear Models"
+Model Selection and Evaluation,"Akaike Information Criterion (AIC),Best Linear Predictors,Summative Course Assessment"
+Practical Applications,"Basic Statistics,Visualizing Time Series,Beginning to Model Time Series"

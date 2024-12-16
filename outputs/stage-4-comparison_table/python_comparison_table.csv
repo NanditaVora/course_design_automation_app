@@ -1,0 +1,53 @@
+﻿topic,sub_topic,exists_in_college_syllabus,exists_in_dump,exists_in_competition,Accept Topic for CTKS
+Core Python Programming,Python Syntax and Structure,Y,Y,NA,Y
+Core Python Programming,Data Types and Variables,Y,Y,NA,Y
+Core Python Programming,Operators,Y,Y,NA,Y
+Core Python Programming,Conditional Statements,Y,Y,NA,Y
+Core Python Programming,Loop Statements,Y,Y,NA,Y
+Core Python Programming,Functions,Y,Y,NA,Y
+Core Python Programming,Exception Handling,Y,Y,NA,Y
+Core Python Programming,File Handling,Y,Y,NA,Y
+Web Development with Python,Django Framework,N,Y,NA,N
+Web Development with Python,Flask Framework,N,Y,NA,N
+Web Development with Python,RESTful APIs,N,Y,NA,N
+Web Development with Python,"HTML, CSS, and JavaScript Integration",N,Y,NA,N
+Web Development with Python,Database Management with Django,N,Y,NA,N
+Web Development with Python,Server-Side Logic,N,Y,NA,N
+Data Science with Python,Data Analysis,Y,Y,NA,N
+Data Science with Python,Data Visualization,Y,Y,NA,N
+Data Science with Python,Pandas Library,Y,Y,NA,Y
+Data Science with Python,NumPy Library,Y,Y,NA,Y
+Data Science with Python,Matplotlib Library,N,Y,NA,N
+Data Science with Python,Data Cleaning and Preprocessing,N,Y,NA,N
+Machine Learning with Python,Supervised Learning,N,Y,NA,N
+Machine Learning with Python,Unsupervised Learning,N,Y,NA,N
+Machine Learning with Python,Scikit-Learn Library,N,Y,NA,N
+Machine Learning with Python,Model Evaluation and Validation,N,Y,NA,N
+Machine Learning with Python,Feature Engineering,N,Y,NA,N
+Machine Learning with Python,Hyperparameter Tuning,N,Y,NA,N
+Deep Learning with Python,Neural Networks,N,Y,NA,N
+Deep Learning with Python,TensorFlow,N,Y,NA,N
+Deep Learning with Python,Keras,N,Y,NA,N
+Deep Learning with Python,Convolutional Neural Networks,N,Y,NA,N
+Deep Learning with Python,Recurrent Neural Networks,N,Y,NA,N
+Deep Learning with Python,Natural Language Processing,N,Y,NA,N
+Artificial Intelligence with Python,AI Concepts and Applications,N,Y,NA,N
+Artificial Intelligence with Python,Machine Learning Integration,N,Y,NA,N
+Artificial Intelligence with Python,AI-based Solutions,N,Y,NA,N
+Artificial Intelligence with Python,Reinforcement Learning,N,Y,NA,N
+Artificial Intelligence with Python,AI Ethics and Best Practices,N,Y,NA,N
+Python for IoT,IoT Concepts,N,Y,NA,N
+Python for IoT,Python Libraries for IoT,N,Y,NA,N
+Python for IoT,Sensor Data Collection,N,Y,NA,N
+Python for IoT,Data Processing and Analysis,N,Y,NA,N
+Python for IoT,IoT Device Communication,N,Y,NA,N
+Version Control and Collaboration,Git Basics,N,Y,NA,N
+Version Control and Collaboration,Branching and Merging,N,Y,NA,N
+Version Control and Collaboration,Collaborative Coding Workflows,N,Y,NA,N
+Version Control and Collaboration,Code Reviews,N,Y,NA,N
+Version Control and Collaboration,Issue Tracking Systems,N,Y,NA,N
+Software Development Best Practices,Clean Code Principles,N,Y,NA,N
+Software Development Best Practices,Modular Code Design,N,Y,NA,N
+Software Development Best Practices,Code Documentation,N,Y,NA,N
+Software Development Best Practices,Testing and Debugging,N,Y,NA,N
+Software Development Best Practices,Continuous Integration and Deployment,N,Y,NA,N

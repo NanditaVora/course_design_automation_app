@@ -1,0 +1,73 @@
+﻿sprint_no,sprint_name,learning_objectives,problem_task_completed,sprint_description,context_setting
+1,Understand Java Basics,"Write a simple Java program to print 'Hello World',Declare and initialize variables in Java","Introduced Java basics and syntax.,Declared and initialized variables for storing student grades.","In this sprint, you will embark on your journey into the world of Java programming. The primary focus will be on understanding the basic syntax and foundational elements of the Java language. You will begin by setting up your development environment and writing your first Java program, a simple ""Hello World"" application. This initial task will introduce you to the structure of a Java program, including the main method and the use of the System.out.println statement for output.
+
+Next, you will delve into declaring and initializing variables, learning about Java's primitive data types such as int, double, and char. You will also explore the concept of constants and the significance of data type compatibility. By the end of this sprint, you will have a solid understanding of how to write basic Java programs and the fundamental syntax rules that govern the language.","John, a college student, has just started learning how to program. His first task is to create a simple program that greets him with a ""Hello World"" message. Additionally, he needs to store some basic information about his grades in a program.
+
+How can John make his computer display a greeting message?
+What kind of information does John need to store about his grades, and how can he do it?
+Why is it important for John to understand the basic structure of a program before diving into more complex tasks?"
+2,Perform Arithmetic Operations,"Perform arithmetic operations using different operators,Use increment and decrement operators","Performed arithmetic operations to calculate grades.,Used increment and decrement operators to adjust grades.","Building on the basics, this sprint will focus on performing arithmetic operations in Java. You will learn to use operators such as addition, subtraction, multiplication, and division to manipulate numerical data. Through hands-on exercises, you will calculate grades based on scores, which will help you understand the practical application of arithmetic operations in real-world scenarios.
+
+Additionally, you will explore the concept of operator precedence and how it affects the evaluation of expressions. By the end of this sprint, you will be proficient in using arithmetic operators and understand how to apply them to solve problems involving numerical calculations.","John has now moved on to performing calculations with his grades. He needs to calculate his average grade and adjust his grades based on extra credit or penalties.
+
+How can John calculate the average of multiple grades?
+What methods can John use to adjust his grades for extra credit or penalties?
+Why is it important for John to know how to perform these calculations accurately?"
+3,Implement Conditional Logic,"Write programs using if-else statements,Use switch-case statements for decision making","Implemented conditional logic to determine grade categories.,Used switch-case statements to handle different grading criteria.","In this sprint, you will dive into the world of conditional logic, learning how to make decisions in your programs using if-else statements. You will implement logic to determine letter grades based on numerical scores, enhancing your ability to write programs that can adapt to different conditions.
+
+You will explore the use of relational and logical operators to create complex conditional expressions. Through practical exercises, you will gain experience in writing nested if-else statements and understand the importance of proper indentation and code readability. By the end of this sprint, you will be able to write programs that can make decisions based on various conditions.","John's next task is to categorize his grades into different categories such as ""Pass"" or ""Fail"". He also needs to handle different grading criteria based on various conditions.
+
+How can John determine whether he has passed or failed based on his grades?
+What different criteria might John need to consider when categorizing his grades?
+Why is it essential for John to handle different conditions and criteria in his grade calculations?"
+4,Implement Looping Constructs,"Write programs using for loops,Use while and do-while loops","Used for loops to iterate through student records.,Applied while and do-while loops for repeated grade calculations.","This sprint will introduce you to the concept of loops, focusing on the use of for loops to iterate through collections of data. You will learn how to use for loops to process student records, such as calculating the average grade for a class.
+
+You will explore the syntax and structure of for loops, including the initialization, condition, and update expressions. Through hands-on exercises, you will gain experience in writing loops that can iterate a specific number of times or process elements in an array. By the end of this sprint, you will be proficient in using for loops to automate repetitive tasks in your programs.","John now needs to process multiple student records and calculate grades for each student repeatedly. He must find an efficient way to handle this repetitive task.
+
+How can John efficiently process and calculate grades for multiple students?
+What challenges might John face when handling repetitive tasks, and how can he overcome them?
+Why is it important for John to find a systematic way to handle repetitive grade calculations?"
+5,Understand Functions in Java,"Define and call functions in Java,Pass arguments and return values in functions","Defined and called functions to modularize the grade calculation.,Passed arguments and returned values in functions to handle different student data.","In this sprint, you will learn about the importance of modularization in programming by defining and calling functions. You will create functions to perform specific tasks, such as calculating grades or printing student records, which will help you organize your code into manageable and reusable units.
+
+You will explore the syntax for defining functions, including the use of parameters and return values. Through practical exercises, you will gain experience in writing functions that perform specific tasks and understand the benefits of modularization in terms of code readability and maintainability. By the end of this sprint, you will be able to write programs that are organized into modular functions.","John realizes that he can simplify his grade calculations by breaking them down into smaller, reusable parts. He needs to find a way to organize his code better.
+
+How can John break down his grade calculations into smaller, manageable parts?
+What benefits might John gain from organizing his code into reusable sections?
+Why is it crucial for John to understand how to organize his code for better readability and maintenance?"
+6,Work with Arrays,"Declare, initialize, and access arrays,Perform operations on array elements","Declared and initialized arrays to store multiple student grades.,Performed operations on array elements to calculate average grades.","This sprint will introduce you to the concept of arrays, which are used to store multiple values in a single variable. You will learn how to declare, initialize, and access elements in arrays, and use them to store and process collections of data, such as student grades.
+
+You will explore the syntax for working with arrays, including the use of loops to iterate through array elements. Through hands-on exercises, you will gain experience in performing operations on arrays, such as calculating the average grade for a class or finding the highest and lowest grades. By the end of this sprint, you will be proficient in using arrays to manage collections of data in your programs.","John needs to store and manage grades for an entire class. He must find a way to handle multiple grades efficiently and perform calculations like finding the average grade.
+
+How can John store grades for an entire class in an organized manner?
+What operations might John need to perform on these grades to get meaningful insights?
+Why is it important for John to manage and manipulate multiple grades efficiently?"
+7,Understand Object-Oriented Programming Concepts,"Create classes and objects,Implement encapsulation in Java","Created classes and objects to represent students and grades.,Implemented encapsulation to protect student data.","In this sprint, you will delve into the world of object-oriented programming (OOP) by creating classes and objects to represent real-world entities. You will learn how to define classes with attributes and methods, and create objects to interact with these classes.
+
+You will explore the principles of OOP, including encapsulation, inheritance, and polymorphism. Through practical exercises, you will gain experience in writing classes that represent student records, and create objects to store and manipulate data. By the end of this sprint, you will be able to write programs that use classes and objects to model real-world scenarios.","John is now tasked with representing students and their grades in a more structured way. He needs to protect the data and ensure it is used correctly.
+
+How can John represent students and their grades in a structured format?
+What measures can John take to protect and manage student data effectively?
+Why is it important for John to understand the concept of structuring and protecting data?"
+8,Implement Inheritance,"Create a class hierarchy using inheritance,Override methods in derived classes","Created a class hierarchy to differentiate between undergraduate and graduate students.,Overrode methods in derived classes to customize grade calculations.","Building on your knowledge of classes and objects, this sprint will focus on creating class hierarchies to differentiate between different types of entities. You will learn how to use inheritance to create subclasses that inherit attributes and methods from a parent class.
+
+You will explore the syntax for defining subclasses and understand the concept of overriding methods. Through hands-on exercises, you will gain experience in creating class hierarchies to represent different types of students, such as undergraduate and graduate students. By the end of this sprint, you will be proficient in using inheritance to create flexible and reusable class structures.","John needs to differentiate between undergraduate and graduate students and customize their grade calculations accordingly. He has to find a way to handle these differences efficiently.
+
+How can John differentiate between undergraduate and graduate students in his program?
+What are the unique requirements for grade calculations for different types of students?
+Why is it essential for John to handle these differences efficiently in his grade calculations?"
+9,Implement Polymorphism,"Use method overloading,Implement runtime polymorphism using method overriding","Used method overloading to handle different types of grade calculations.,Implemented runtime polymorphism to dynamically calculate grades based on student type.","In this sprint, you will learn about method overloading, which allows you to define multiple methods with the same name but different parameters. You will explore the benefits of method overloading in terms of code readability and flexibility.
+
+You will gain experience in writing overloaded methods to handle different types of inputs, such as calculating grades for individual students or entire classes. Through practical exercises, you will understand how to use method overloading to create flexible and reusable code. By the end of this sprint, you will be proficient in using method overloading to enhance the functionality of your programs.","John has to handle various types of grade calculations dynamically based on the type of student. He needs to find a way to make his program adaptable to different scenarios.
+
+How can John handle different types of grade calculations based on student type?
+What challenges might John face when making his program adaptable to various scenarios?
+Why is it crucial for John to ensure his program can handle dynamic changes efficiently?"
+10,Handle Exceptions in Java,"Implement try-catch blocks,Use finally block for cleanup operations","Handled exceptions using try-catch blocks to manage invalid inputs.,Used finally block to ensure cleanup operations after grade calculations.","In the final sprint, you will learn about exception handling, which allows you to manage errors and unexpected conditions in your programs. You will explore the use of try-catch blocks to handle exceptions and ensure that your programs can gracefully recover from errors.
+
+You will gain experience in writing code that anticipates and handles common exceptions, such as division by zero or invalid input. Through practical exercises, you will understand the importance of exception handling in terms of program reliability and user experience. By the end of this sprint, you will be proficient in using exception handling to create robust and error-resistant programs.
+
+By the end of this course, you will have a solid foundation in Java programming and be equipped with the skills to tackle more advanced topics in future courses.","John is now focused on making his program robust by handling invalid inputs and ensuring proper cleanup after calculations. He needs to ensure his program can manage unexpected situations gracefully.
+
+How can John ensure his program manages invalid inputs without crashing?
+What steps can John take to ensure proper cleanup after grade calculations?
+Why is it important for John to make his program robust and handle unexpected situations gracefully?"

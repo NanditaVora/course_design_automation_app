@@ -1,0 +1,10 @@
+﻿topic,sub_topics
+Core Python Programming,"Python Syntax and Structure,Data Types and Variables,Operators,Conditional Statements,Loop Statements,Functions,Exception Handling,File Handling"
+Web Development with Python,"Django Framework,Flask Framework,RESTful APIs,HTML, CSS, and JavaScript Integration,Database Management with Django,Server-Side Logic"
+Data Science with Python,"Data Analysis,Data Visualization,Pandas Library,NumPy Library,Matplotlib Library,Data Cleaning and Preprocessing"
+Machine Learning with Python,"Supervised Learning,Unsupervised Learning,Scikit-Learn Library,Model Evaluation and Validation,Feature Engineering,Hyperparameter Tuning"
+Deep Learning with Python,"Neural Networks,TensorFlow,Keras,Convolutional Neural Networks,Recurrent Neural Networks,Natural Language Processing"
+Artificial Intelligence with Python,"AI Concepts and Applications,Machine Learning Integration,AI-based Solutions,Reinforcement Learning,AI Ethics and Best Practices"
+Python for IoT,"IoT Concepts,Python Libraries for IoT,Sensor Data Collection,Data Processing and Analysis,IoT Device Communication"
+Version Control and Collaboration,"Git Basics,Branching and Merging,Collaborative Coding Workflows,Code Reviews,Issue Tracking Systems"
+Software Development Best Practices,"Clean Code Principles,Modular Code Design,Code Documentation,Testing and Debugging,Continuous Integration and Deployment"

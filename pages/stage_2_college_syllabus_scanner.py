@@ -1,5 +1,7 @@
 import os
 from io import BytesIO
+
+import pandas
 from docx import Document
 import streamlit as st
 from dotenv import load_dotenv
@@ -84,7 +86,7 @@ def process_query(uploaded_file, scan_topic):
             o	Normalization
             o	Transactions
             o	Indexing
-        Please ensure the list is comprehensive and covers all relevant topics mentioned in the syllabus.
+        Please ensure the list is comprehensive and covers all topics relevant only to {scan_topic} and mentioned in the syllabus.
 
         Do not include any introductory lines or closing lines in your response, so that the response can as is downloaded.
         Thank you!
@@ -162,10 +164,10 @@ def main():
         # Create dropdown for college syllabus files
         college_syllabus_file = create_pdf_selector(pdf_directory, inputbox)
 
-        # scan_topic = inputbox.text_area("Enter the comma-separated keywords that will be used for scanning")
-        scan_topic = inputbox.selectbox("Select topics that need to be searched in the selected college syllabus file",
-                                        ["Java", "Database", "Object Oriented Programming", "HTML", "CSS","JavaScript",
-                                        "Python"])
+        subject_list = pandas.read_csv("inputs/subject_list.csv")
+
+        scan_topic = inputbox.selectbox("Select topic that needs to be searched in the selected competition file",
+                                        subject_list.columns)
 
         handle_get_response(college_syllabus_file, scan_topic)
     if "college_syllabus_response" not in st.session_state:
@@ -175,7 +177,7 @@ def main():
         st.header("Response")
         # Save Response Button
         if st.button('Save Response to DOCX'):
-            doc = write_or_append_docx(f"outputs/college_syllabus/{scan_topic}_college_syllabus.docx", college_syllabus_file, st.session_state.college_syllabus_response)
+            doc = write_or_append_docx(f"outputs/stage-2-college_syllabus/{scan_topic}_college_syllabus.docx", college_syllabus_file, st.session_state.college_syllabus_response)
             save_doc(doc)
 
         if st.session_state.content_written:
@@ -183,11 +185,6 @@ def main():
             st.session_state.content_written = False
             st.session_state.college_syllabus_response=""
         st.markdown(st.session_state.college_syllabus_response)
-
-
-
-
-
 
 
 main()
